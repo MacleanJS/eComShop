@@ -1,0 +1,54 @@
+@import "../../assets/themes.scss";
+.landingWrapper {
+    background-color: $dark-peach;
+    height: 1024px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sectionLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+
+    div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        p {
+            font-size: 50px;
+            text-align: center;
+            color: $light-peach;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: $light-peach;
+            border: none;
+            height: 50px;
+            width: 150px;
+            color: $dark-peach;
+            font-size: 20px;
+        }
+    }
+}
+.sectionRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+    div {
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

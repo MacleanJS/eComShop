@@ -1,0 +1,23 @@
+@import "../../assets/themes.scss";
+
+Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    background-color: $nav-color;
+    height: 2vw;
+    min-height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+}
+.navText {
+    text-decoration: none;
+    font-size: 24px;
+    color: $light-text;
+}
+.navText:hover {
+    color: $dark-peach;
+}
