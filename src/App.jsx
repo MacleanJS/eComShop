@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Landing from "./containers/Landing/Landing";
+import Trending from "./containers/Trending/Trending";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <div className="App">
                 <Nav />
                 <Landing />
+                <Trending />
             </div>
         </BrowserRouter>
     );
