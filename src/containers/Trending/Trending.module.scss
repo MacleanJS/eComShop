@@ -1,11 +1,13 @@
 @import "../../assets/themes.scss";
 .trendingWrapper {
-    background-color: $light-peach;
+    background-color: $white;
     min-height: 1024px;
     display: flex;
     flex-direction: column;
     width: 100%;
     align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .reviewWrapper {

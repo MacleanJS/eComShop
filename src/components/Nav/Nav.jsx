@@ -5,10 +5,10 @@ import styles from "./Nav.module.scss";
 const Nav = () => {
     return (
         <nav>
-            <NavLink to="/">
-                <p className={styles.navText}>BRAND NAME</p>
+            <NavLink to="/shoes">
+                <p className={styles.navText}>HYPE SHOES</p>
             </NavLink>
-            <NavLink to="/cart">
+            <NavLink to="/shoes/cart">
                 <p className={styles.navText}>CART</p>
             </NavLink>
         </nav>

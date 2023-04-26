@@ -1,0 +1,86 @@
+@import "../../assets/themes";
+
+.promo_code {
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.promo_code label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.promo_code input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid $dark-peach;
+}
+
+.promo_code button[type="submit"] {
+    background-color: $dark-peach;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.page_container {
+    margin-top: 3em;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_side {
+    width: 70em;
+    border-right: 2px solid $dark-peach;
+    h2 {
+        color: $dark-text;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+}
+.right_side {
+    width: 30em;
+    min-height: 60vw;
+}
+
+.promo_border {
+    border: 2px solid $dark-peach;
+}
+
+.promo_text {
+    color: $dark-text;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.price_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    &__left {
+        margin-left: 3em;
+    }
+    &__right {
+        margin-right: 3em;
+    }
+}
+
+.checkout_btn {
+    margin-right: 3em;
+    margin-top: 1em;
+    background-color: $dark-peach;
+    color: $light-text;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    float: right;
+}

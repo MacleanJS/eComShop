@@ -1,0 +1,63 @@
+@import "../../assets/themes.scss";
+.product_container {
+    background-color: white;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: top;
+    align-items: start;
+}
+.header_text {
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 100vw;
+    height: 4em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.product_info {
+    width: 100vw;
+    display: flex;
+    &__img {
+        width: 50%;
+    }
+    &__price_cart {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 10em;
+        p {
+            width: 100%;
+            color: $dark-text;
+        }
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        label {
+            margin-right: 1em;
+        }
+
+        select {
+            margin-right: 1em;
+        }
+
+        button {
+            background-color: $dark-peach;
+            color: $light-text;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 0.25em;
+            cursor: pointer;
+        }
+    }
+}

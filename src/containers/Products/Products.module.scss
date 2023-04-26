@@ -1,0 +1,20 @@
+@import "../../assets/themes.scss";
+.products {
+    &__Wrapper {
+        background-color: $white;
+        border-top: 2px solid $dark-peach;
+        min-height: 1024px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+    }
+}
+
+.products {
+    &__header {
+        margin-top: 4vw;
+        height: 5vw;
+        text-align: center;
+    }
+}

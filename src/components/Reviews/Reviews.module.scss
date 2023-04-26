@@ -1,12 +1,15 @@
+@import "../../assets/themes";
 .reviewContainer {
-    border: 2px solid black;
+    border-bottom: 2px solid $dark-peach;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: 0 5vw 0 5vw;
+    margin: 5px 4vw 5px 4vw;
     width: 15em;
+    padding: 10px;
     img {
         width: 150px;
+        height: 90px;
     }
 }
